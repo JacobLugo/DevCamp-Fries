@@ -1,0 +1,162 @@
+body {
+    margin: 0px;
+    background-color: rgb(62, 63, 70);
+    font-family: sans-serif;
+}
+
+.box {
+    background-color: black;
+    padding: 16px 40px;
+    display: flex;
+    align-items: center;
+}
+
+.box > .left-side {
+    display: flex;
+}
+
+.box > .left-side > .logo {
+    padding-right: 100px;
+    max-height: 100%;
+}
+
+.box >  .left-side > .links {
+    color: white;
+    font-size: 25px;
+    word-spacing: 30px;
+    font-weight: bold;
+}
+
+.box >  .left-side > .links > .explore {
+    color: yellow;
+    word-spacing: 10px;
+    font-size: 20px;
+}
+
+.box >  .left-side > .links > .pens {
+    color: white;
+    font-weight: bold;
+}
+
+.box >  .left-side > .links > .pens a {
+    color: gray;
+    font-weight: bold;
+}
+
+.box > .right-side {
+    padding-left: 180px;
+    display: flex;
+    width: 35%;
+}
+
+.box > .right-side > .nav-button {
+    font-size: 25px;
+    color: white;
+    background-color: rgb(88, 88, 88);
+    padding: 20px 40px;
+    font-weight: bold;
+    padding-left: 30px;
+    display: flex;
+    margin: 10px;
+}
+
+.box > .right-side > .nav-button a {
+    color: limegreen;
+    font-weight: bold;
+}
+
+.box > .right-side > .magnify {
+    color: rgb(88, 88, 88);
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+.main {
+    display: flex;
+}
+
+.paragraph {
+    font-weight: 100;
+    padding-left: 60px;
+    color: rgb(219, 218, 218);
+    font-size: 50px;
+    font-style: none;
+}
+
+.paragraph a {
+    color: white;
+    font-weight: 700;
+}
+
+.main-left {
+    width: 50%;
+    padding-bottom: 86px;
+}
+
+.main-left > .buttons {
+    display: flex;
+    font-size: 40px;
+    padding: 20px 40px;
+    font-weight: bold;
+    padding-left: 60px;
+}
+
+.main-left > .buttons > .sign-up-for-free {
+    background-color: lime;
+    color: black;
+    padding: 30px 40px;
+}
+
+.main-left > .buttons > .learn-more {
+    color: white;
+    background: black;
+    padding: 30px 40px;
+    margin-left: 20px;
+}
+
+.main-right {
+    width: 50%;
+}
+
+.main-right > .this-is {
+    padding-top: 130px;
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+    padding-left: 280px;
+}
+
+.main-right > .this-is a {
+    font-weight: 700;
+    color: rgb(46, 160, 212);
+}
+
+.main-right > .image {
+    text-align: right;
+}
+
+.feet {
+    display: flex;
+    color: white;
+    font-size: 30px;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(83, 84, 90);
+    border: 1px solid grey;
+    border-width: 25%;
+}
+
+.feet span { 
+    font-weight: 900;
+}
+
+.feet > .codepen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 93px;
+    width: 25%;
+    border: 5px solid grey;
+}
